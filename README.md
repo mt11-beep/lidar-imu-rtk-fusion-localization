@@ -1,5 +1,16 @@
 # LiDAR-IMU-RTK Fusion Localization
 
+## Contribution
+
+This project focuses on improving the robustness of LiDAR-IMU localization in GNSS-challenged environments.
+
+Main contributions:
+
+- Designed RTK quality evaluation strategy based on fix status and covariance information.
+- Developed RTK outlier rejection module based on temporal consistency and position jump detection.
+- Proposed adaptive RTK factor weighting strategy for factor graph optimization.
+- Integrated RTK constraints into FAST-LIO2 based localization framework.
+
 ## Overview
 
 This repository presents a LiDAR-IMU-RTK fusion localization pipeline built on a FAST-LIO2-style LiDAR-inertial odometry front end. The system adds RTK global position constraints, quality-aware RTK filtering, ENU local frame construction, outlier rejection, and adaptive GPS factor weighting for high-precision robot localization in GNSS-degraded environments.
@@ -62,6 +73,15 @@ lidar-imu-rtk-fusion-localization-public/
 - FAST-LIO2
 - GTSAM
 - GeographicLib
+
+## Hardware
+
+Tested on:
+
+- 3D LiDAR
+- IMU
+- RTK GNSS receiver
+- Mobile robot platform
 
 ## Experiments
 
