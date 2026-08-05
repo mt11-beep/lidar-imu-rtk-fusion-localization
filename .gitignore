@@ -1,0 +1,15 @@
+*.bag
+*.db3
+build/
+install/
+log/
+*.pcd
+*.ply
+*.map
+*.yaml
+!config/example.yaml
+*.rviz
+.vscode/
+.idea/
+__pycache__/
+*.pyc
