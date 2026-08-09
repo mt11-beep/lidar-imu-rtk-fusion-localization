@@ -51,9 +51,11 @@ lidar-imu-rtk-fusion-localization-public/
 ├── README.md
 ├── LICENSE
 ├── docs/
-│   ├── architecture.png
-│   ├── experiment.png
+│   ├── architecture.txt
+│   ├── result.png
 │   └── demo_placeholder.md
+│   └── trajectory0.png
+│   └── trajectory1.png
 ├── config/
 │   └── example.yaml
 ├── launch/
