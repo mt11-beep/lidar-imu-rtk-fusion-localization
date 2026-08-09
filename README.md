@@ -40,7 +40,7 @@ The repository is a public algorithm showcase. It keeps the core RTK fusion logi
 
 Architecture diagram placeholder:
 
-请看(docs/architecture.png)
+See (docs/architecture.png) 
 
 The front end estimates local motion from LiDAR and IMU data. RTK measurements are converted from WGS84 to a local ENU frame, filtered by status and covariance, checked for abnormal jumps, and added to the factor graph as position constraints with adaptive noise.
 
