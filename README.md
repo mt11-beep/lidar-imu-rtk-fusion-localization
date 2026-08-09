@@ -28,11 +28,19 @@ The repository is a public algorithm showcase. It keeps the core RTK fusion logi
 - Factor graph based optimization
 - Real robot deployment
 
+## trajectory 
+
+![System Architecture](docs/trajectory0.png)![System Architecture](docs/trajectory1.png)
+
+## result
+
+![System Architecture](docs/result.png)
+
 ## System Architecture
 
 Architecture diagram placeholder:
 
-![System Architecture](docs/architecture.png)
+请看(docs/architecture.png)
 
 The front end estimates local motion from LiDAR and IMU data. RTK measurements are converted from WGS84 to a local ENU frame, filtered by status and covariance, checked for abnormal jumps, and added to the factor graph as position constraints with adaptive noise.
 
