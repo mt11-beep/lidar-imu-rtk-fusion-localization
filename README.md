@@ -32,10 +32,6 @@ The repository is a public algorithm showcase. It keeps the core RTK fusion logi
 
 ![System Architecture](docs/trajectory0.png)![System Architecture](docs/trajectory1.png)
 
-## result
-
-![System Architecture](docs/result.png)
-
 ## System Architecture
 
 Architecture diagram placeholder:
@@ -108,7 +104,7 @@ Evaluation metrics:
 
 Experiment figure placeholder:
 
-![Experiment](docs/experiment.png)
+![System Architecture](docs/result.png)
 
 ## Demo
 
